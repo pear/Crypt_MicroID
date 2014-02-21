@@ -1,0 +1,31 @@
+{
+    "authors": [
+        {
+            "email": "wilms@cs.umn.edu",
+            "name": "Kurt Wilms",
+            "role": "Lead"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Crypt": "./"
+        }
+    },
+    "description": "More info available on: http://pear.php.net/package/Crypt_MicroID",
+    "include-path": [
+        "./"
+    ],
+    "license": "New BSD License",
+    "name": "pear/crypt_microid",
+    "support": {
+        "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=Crypt_MicroID",
+        "source": "https://github.com/pear/Crypt_MicroID"
+    },
+    "type": "library",
+    "require": {
+        "pear/pear_exception": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
